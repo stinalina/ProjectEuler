@@ -7,6 +7,6 @@ int main()
 {
 	Timer t;
 	t.Run();
-	std::cout << "Result: " << SolveP12() << "\n";
+	std::cout << "Result: " << SolveP13() << "\n";
 	t.Stop();
 }

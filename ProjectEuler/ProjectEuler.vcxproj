@@ -157,6 +157,7 @@
     <ClInclude Include="src\P10.h" />
     <ClInclude Include="src\P11.h" />
     <ClInclude Include="src\P12.h" />
+    <ClInclude Include="src\P13\P13.h" />
     <ClInclude Include="src\P4.h" />
     <ClInclude Include="src\P1.h" />
     <ClInclude Include="src\P2.h" />
