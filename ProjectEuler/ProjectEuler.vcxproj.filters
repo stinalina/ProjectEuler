@@ -71,5 +71,8 @@
     <ClInclude Include="src\P15\P15.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\P16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

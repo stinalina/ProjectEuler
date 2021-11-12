@@ -7,6 +7,11 @@ How many such routes are there through a 20×20 grid? -> Choose a subset of 20 el
 
 static unsigned long long binomCoefficient(int n, int k) // "n over k"
 {
+	/*
+		Example: 8 C 4 well shortened it will be...
+			(8 * 7 * 6 * 5) / (4 * 3 * 2 * 1)
+			// we divide immediately to prevent having big numbers
+	*/
 	unsigned long long result = 1ULL;
 	for (unsigned int i = 1; i <= k; i++)
 	{
