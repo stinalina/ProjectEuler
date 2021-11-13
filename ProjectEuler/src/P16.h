@@ -12,12 +12,19 @@ static unsigned int SolveP16()
     double product = pow(2, 1000);
     std::string s = std::to_string(product);
 
-    int i = 0;
+    //int i = 0;
+    //int result = 0;
+    //while (i < s.size()-7) // Cut the 0's
+    //{
+    //    result += s[i] - 48;
+    //    i++;
+    //}
+
     int result = 0;
-    while (i < s.size()-7) // Cut the 0's
+    for(char c : s)
     {
-        result += s[i] - 48;
-        i++;
+        if (c == '.') break;
+        result += c - 48;
     }
 
     return result;
